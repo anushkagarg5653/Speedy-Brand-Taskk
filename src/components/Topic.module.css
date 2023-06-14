@@ -1,0 +1,53 @@
+.wrapper{
+    border: 2px solid rgb(224, 216, 224);
+}
+.container{
+    display: flex;
+    justify-content:start;
+    margin: 10px auto;
+    /* border: 2px solid red; */
+}
+
+.deleteBtn{
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 24px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.AddBtn{
+  background-color: #ec6d3b; 
+  border: none;
+  color: white;
+  padding: 15px 24px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.mainContainer{
+    display: flex;
+}
+
+.title{
+    margin: 20px;
+}
+
+.pill{
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 16px;
+}
